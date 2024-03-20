@@ -1,0 +1,22 @@
+ipykernel
+pandas
+numpy
+matplotlib
+plotly
+seaborn
+scipy
+scikit-learn
+imblearn
+xgboost
+catboost
+pymongo
+from_root
+evidently==0.2.8
+dill
+PyYAML
+neuro_mf
+fastapi
+uvicorn
+jinja2
+python-multipart
+-e .
