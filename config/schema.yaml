@@ -6,7 +6,7 @@ columns:
     - requires_job_training: category
     - no_of_employees: int
     - yr_of_estab: int
-    - region_of_emplyement: category
+    - region_of_employment: category
     - prevailing_wage: int
     - unit_of_wage: category
     - full_time_position: category
@@ -33,9 +33,16 @@ drop_columns:
     - yr_of_estab
 
 num_features:
-    - has_job_ecperience
+
+    - no_of_employees
+    - prevailing_wage
+    - company_age
+    
+
+or_columns:
+    - has_job_experience
     - requires_job_training
-    - fulll_time_position
+    - full_time_position
     - education_of_employee
 
 oh_columns:
@@ -46,5 +53,8 @@ oh_columns:
 transform_columns:
     - no_of_employees
     - company_age
+
+
+
 
 
